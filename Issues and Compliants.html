@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 37px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #f44336;
+}
+
+.container {
+  border-radius: 20px;
+  background-color: #993366;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<h2 align="center">Issues and Complaint Form</h2>
+
+<div class="container">
+  <form action="/action_page.php">
+    
+    <input type="text" id="fname" name="firstname" placeholder="Enter your First Name..">
+
+    
+    <input type="text" id="lname" name="lastname" placeholder="Enter your Last Name..">
+
+    
+    <select id="drop" name="drop">
+      <option value="Issues">Issues</option>
+      <option value="Complaint">Complaint</option>
+    </select>
+
+    
+    <textarea id="subject" name="subject" placeholder="Write about your Issues or Complaint and will get back to you shortly.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>

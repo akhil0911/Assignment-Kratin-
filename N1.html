@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+	
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 25px;
+  height: 200px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+hr { 
+  display: line;
+  margin-top: 0.5em;
+  margin-bottom: 0em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 18px;
+} 
+
+
+/* Styled the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 50%;
+  border-left: none;
+  height: 300px;
+  display: none;
+	background-color:#BC8F8F;
+}
+
+/* Clear floats after the tab */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+body {margin:0;}
+
+
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #bf4080;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #46d2d2;
+  color: white;
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 11px;
+  margin-top: 8px;
+  margin-right: 30px;
+  border: none;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align:center;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  
+  .topnav input[type=text] {
+    border: 1px solid #ddd;  
+  }
+}
+
+.footer{
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+</style>
+</head>
+<body>
+
+<h1 style= "text-align:center;">
+Elderly Care Portal</h1>
+
+
+<div class="topnav">
+  <input type="text" placeholder="Search...">
+  <h3 style="text-align:right;">
+  <h3 style="color:white">	
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspSupporter Needs Support&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+<p><i></i></p>
+</div>
+</div>
+
+
+<div class="row">
+  <div class="column" style="background-color:#ddd;">
+
+    <h2>Quick Access</h2> 
+     <p><a href="file:///C:/Users/akhilesh.khangar.INAMT2ARAK222/Documents/Login.html">Login</a></p>
+     <p><a href="http://mydoctor.co/"> My Doctor</a></p>
+     <p><a href="http://preview.themeforest.net/item/kindlycare-senior-care-medical-wordpress-theme/full_screen_preview/15406898?irgwc=1&clickid=W1wyb2xxOxyLRfuwUx0Mo3QRUkExzswkZ2Sl380&iradid=275988&irpid=369282&iradtype=ONLINE_TRACKING_LINK&irmptype=mediapartner&mp_value1=&utm_campaign=af_impact_radius_369282&utm_medium=affiliate&utm_source=impact_radius"> Book an Appointment</a></p>
+   </div>
+
+  <div class="column" style="background-color:#ddd;">
+    <h2>Home Care Services</h2>
+    <p><a href="https://www.diagnosticcentres.in/category/full-body-health-checkup-packages">Get a Quick check-up</a></p>
+    <p><a <a href="https://www.healthline.com/nutrition/27-health-and-nutrition-tips">Health Tips</a></a></p>
+     <p><a <a href=""></a></a></p>
+  </div>
+
+<p></p>
+<hr>
+<p></p>
+
+  <div class="column" style="background-color:#ddd;">
+    <h2>Emergency Services</h2>
+    <p><a href="https://www.medlife.com/blog/covid-19-emergency-helpline-senior-citizens-india/amp/">Call Us</a></p> 
+    <p><a <a href="mailto:akhil.khangar@gmail.com">Send us Email</a><p>
+  </div>
+
+  <div class="column" style="background-color:#ddd;">
+    <h2>Administration</h2>
+     <p><a <a href="file:///C:/Users/akhilesh.khangar.INAMT2ARAK222/Documents/Registration%20form.html?fname=&lname=&cars=India
+">New User Registeration</a></a></p>
+	   <p><a href="file:///C:/Users/akhilesh.khangar.INAMT2ARAK222/Documents/Issues%20and%20Compliants.html
+">Account related Issues and Compliants</a></a></p>		
+		  <p><a href="https://en.wikipedia.org/wiki/Elderly_care">More..</a></a></p>
+  </div>
+</div>
+
+<h2 style= "text-align:center;"><i>Recommended Diet Plan for old age people</i></h2>
+
+<ol>
+  <li>Healthy Eating for Older Adults.</li>
+  <li>Eat fruits and vegetables.</li>
+  <li>Vary protein choices with more fish, beans and peas.</li>
+  <li>Eat at least three ounces of whole-grain cereals, breads, crackers, rice or pasta every day.</li>
+  <li>Have three servings of low-fat or fat-free dairy (milk, yogurt or cheese) that are fortified with vitamin D to help keep your bones healthy.</li>
+</ol>  
+
+<h2 style= "text-align:center;"><i>Points to Remember:</i></h2>
+
+<h3 style= "text-align:left;">&nbsp;&nbsp;&nbsp;Motivation</h3>
+
+<ul>
+  <li>Encourage Few and Manageable Goals.</li>
+  <li>Encourage the Feeling of Usefulness</li>
+  <li>Encourage Technologies</li>
+  <li>Encourage Adaptive, Flexible Coping skills</li>
+</ul>  
+
+<h3 style= "text-align:left;">&nbsp;&nbsp;&nbsp;Meditation</h3>
+
+<ul>
+  <li>An easy way for older people to meditate is by focusing on their breathing.</li>
+  <li>Take five deep breaths, inhaling through your nose and exhaling from your mouth. This technique can help you to slow down and relax.</li>
+  <li>Benefits of Meditation:</li>
+  <li>1.Memory</li>
+  <li>2.Cognitive decline</li>
+  <li>3.Digestion and circulation</li>
+  <li>4.Stress and Loneliness</li>
+</ul>  
+
+<h3 style= "text-align:left;">&nbsp;&nbsp;&nbsp;Motto</h3>
+<ul>
+  <li>The power of intuitive understanding will protect you from harm until the end of your days.</li>
+  <li>Old age is not a disease - It is strength and survivorship.</li>
+  <li>Our personlaity should be ideal, inspirable for others.</li>
+  <li>Give to the world the best you have as nature do with us.</li>
+</ul>  
+
+
+<h3 style= "text-align:left;">&nbsp;&nbsp;&nbsp;Be aware of bad elements</h3>
+
+<ul>
+  <li>Angel & Devil live together so be aware always try to self secure in all ways.</li>
+  <li>The unity in Diversity - Live & Let live</li>
+  <li>Be ready struggle against bad elements boldly</li>
+</ul>  
+
+
+<h3 style= "text-align:left;">&nbsp;&nbsp;&nbsp;P P D B S G S</h3>
+
+<ul>
+  <li>Prevention is better than cure</li>
+  <li>Prohibition - Don't go in unsafe area</li>
+  <li>Defense - Physically Strong & Mentally Sharp</li>
+  <li>Be Postivie - No negativity and No negligence</li>
+  <li>Satsang - True knowledge includes GK, Science & Spritual knowledge</li>
+  <li>Goal - Life is energy & Struggle</li>
+  <li>Surrender - Self surrender to supreme power</li>
+</ul>  
+
+
+<div class="footer">
+
+<p>Copyright (c) 2020  All Rights Reserved.
+<p style= "text-align: centre;">Elderlycare.com</p>
+</div>
+
+
+</body>
+</html>
